@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1220mm" height="2440mm" viewBox="0 0 1220 2440" data-thickness="5">
+<style>
+.sheet{fill:#fff;stroke:#999;stroke-width:2.60}
+.cut{fill:#f3f3f3;fill-rule:evenodd;stroke:#000;stroke-width:2.60}
+.miter{fill:none;stroke:#e8400c;stroke-width:9.76;stroke-dasharray:29.3 16.3;stroke-linecap:butt}
+text{font-family:Helvetica,Arial,sans-serif;fill:#000}
+.lbl{font-size:35.8px;font-weight:bold} .dim,.small{font-size:29.3px}
+.ang{font-size:29.3px;font-weight:bold;fill:#e8400c} .up{font-size:26.0px;letter-spacing:.1em;fill:#777}
+.title{font-size:52.1px;font-weight:bold}
+.scale{stroke:#000;stroke-width:3.25;fill:none}
+</style>
+<rect class="sheet" x="0" y="0" width="1220" height="2440"/>
+<text class="title" x="24.4" y="76.5">5-c · Foamex 5 mm · Sheet 14/32 (1220 × 2440)</text>
+<text class="small" x="24.4" y="118.7">Black line = cut. Orange dashed edge = mitered (45° unless marked).</text>
+<text class="small" x="24.4" y="154.5">Printed side = outer face, bevel goes toward the back.</text>
+<g transform="translate(1095.6,2415.6)"><path class="scale" d="M0,-26.0 V0 H100 V-26.0"/>
+<text class="small" x="100" y="-32.5" text-anchor="end">check: 100 mm</text></g>
+<g class="part" data-part="ceiling" data-piece="B2"><path class="cut" d="M1194.60,2303.99 L1194.60,193.57 L24.40,193.57 L24.40,2303.99 Z"/><text class="up" x="609.5" y="826.7" text-anchor="middle" transform="rotate(-90 609.5 826.7)">THIS SIDE UP</text><text class="lbl" x="24.4" y="2349.5">#14 ceiling · panel B2 of 21</text><text class="dim" x="24.4" y="2391.8">2110 × 1170 mm</text></g>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1220mm" height="2440mm" viewBox="0 0 1220 2440" data-thickness="5">
+<style>
+.sheet{fill:#fff;stroke:#999;stroke-width:2.60}
+.cut{fill:#f3f3f3;fill-rule:evenodd;stroke:#000;stroke-width:2.60}
+.miter{fill:none;stroke:#e8400c;stroke-width:9.76;stroke-dasharray:29.3 16.3;stroke-linecap:butt}
+text{font-family:Helvetica,Arial,sans-serif;fill:#000}
+.lbl{font-size:35.8px;font-weight:bold} .dim,.small{font-size:29.3px}
+.ang{font-size:29.3px;font-weight:bold;fill:#e8400c} .up{font-size:26.0px;letter-spacing:.1em;fill:#777}
+.title{font-size:52.1px;font-weight:bold}
+.scale{stroke:#000;stroke-width:3.25;fill:none}
+</style>
+<rect class="sheet" x="0" y="0" width="1220" height="2440"/>
+<text class="title" x="24.4" y="76.5">5-c · Foamex 5 mm · Sheet 1/32 (1220 × 2440)</text>
+<text class="small" x="24.4" y="118.7">Black line = cut. Orange dashed edge = mitered (45° unless marked).</text>
+<text class="small" x="24.4" y="154.5">Printed side = outer face, bevel goes toward the back.</text>
+<g transform="translate(1095.6,2415.6)"><path class="scale" d="M0,-26.0 V0 H100 V-26.0"/>
+<text class="small" x="100" y="-32.5" text-anchor="end">check: 100 mm</text></g>
+<g class="part" data-part="mirr_013_mitered" data-piece=""><path class="cut" d="M24.40,2193.57 L883.47,2193.57 L883.47,193.57 L24.40,193.57 Z"/><path class="miter" d="M24.40,2193.57 L883.47,2193.57"/><path class="miter" d="M883.47,2193.57 L883.47,193.57"/><path class="miter" d="M883.47,193.57 L24.40,193.57"/><path class="miter" d="M24.40,193.57 L24.40,2193.57"/><text class="up" x="453.9" y="793.6" text-anchor="middle" transform="rotate(-90 453.9 793.6)">THIS SIDE UP</text><text class="lbl" x="24.4" y="2239.1">#1 mirr.013</text><text class="dim" x="24.4" y="2281.4">2000 × 859 mm</text></g>
+<g class="part" data-part="mirr_012_mitered" data-piece=""><path class="cut" d="M898.11,2193.57 L1158.05,2193.57 L1158.05,193.57 L898.11,193.57 Z"/><path class="miter" d="M898.11,2193.57 L1158.05,2193.57"/><path class="miter" d="M1158.05,2193.57 L1158.05,193.57"/><path class="miter" d="M1158.05,193.57 L898.11,193.57"/><path class="miter" d="M898.11,193.57 L898.11,2193.57"/><text class="up" x="1028.1" y="793.6" text-anchor="middle" transform="rotate(-90 1028.1 793.6)">THIS SIDE UP</text><text class="lbl" x="898.1" y="2239.1">#2 mirr.012</text><text class="dim" x="898.1" y="2281.4">2000 × 260 mm</text></g>
+</svg>

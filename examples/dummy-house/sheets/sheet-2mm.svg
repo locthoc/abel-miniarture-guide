@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="297.0mm" height="210.0mm" viewBox="0 0 297.0 210.0" data-thickness="2">
+<style>
+.sheet{fill:#fff;stroke:#999;stroke-width:0.3}
+.cut{fill:#f3f3f3;fill-rule:evenodd;stroke:#000;stroke-width:0.25}
+.lbl,.dim,.title,.small{font-family:Helvetica,Arial,sans-serif;fill:#000}
+.lbl{font-size:3.2px;font-weight:bold} .dim{font-size:3px}
+.title{font-size:5px;font-weight:bold} .small{font-size:3px}
+.scale{stroke:#000;stroke-width:0.4;fill:none}
+</style>
+<rect class="sheet" x="0.5" y="0.5" width="296.0" height="209.0"/>
+<text class="title" x="10.0" y="15.0">Dummy House · Foamex 2 mm · Sheet A4</text>
+<text class="small" x="10.0" y="20.0">Scale 1:1, print at 100% (no "fit to page"). Units: mm.</text>
+<g transform="translate(237.0,200.0)">
+<path class="scale" d="M0,-3 V0 H50 V-3 M10,0 V-1.5 M20,0 V-1.5 M30,0 V-1.5 M40,0 V-1.5"/>
+<text class="small" x="0" y="-4.5">check: this bar = 50 mm</text></g>
+<g class="part" id="part-roof_f" data-part="roof_f"><path class="cut" d="M140.00,80.00 L140.00,24.00 L10.00,24.00 L10.00,80.00 L140.00,80.00 Z"/><text class="lbl" x="12.0" y="85.0">#6 Roof front</text><text class="dim" x="139.0" y="85.0" text-anchor="end">130 × 56</text></g>
+<g class="part" id="part-roof_b" data-part="roof_b"><path class="cut" d="M276.00,80.00 L276.00,24.00 L146.00,24.00 L146.00,80.00 L276.00,80.00 Z"/><text class="lbl" x="148.0" y="85.0">#7 Roof back</text><text class="dim" x="275.0" y="85.0" text-anchor="end">130 × 56</text></g>
+<g class="part" id="part-awning" data-part="awning"><path class="cut" d="M44.00,108.00 L44.00,94.00 L10.00,94.00 L10.00,108.00 L44.00,108.00 Z"/><text class="lbl" x="12.0" y="113.0">#8 Door awning</text><text class="dim" x="12.0" y="117.0">34 × 14</text></g>
+</svg>

@@ -1,0 +1,759 @@
+{
+ "project": "5-c",
+ "units": "mm",
+ "model": "models/5-c.glb",
+ "thickness": 5.0,
+ "sheet_size": [
+  1220.0,
+  2440.0
+ ],
+ "groups": [
+  {
+   "id": 1,
+   "name": "Group 1"
+  },
+  {
+   "id": 2,
+   "name": "Group 2"
+  },
+  {
+   "id": 3,
+   "name": "mirr.002"
+  },
+  {
+   "id": 4,
+   "name": "ceiling"
+  },
+  {
+   "id": 5,
+   "name": "mirr"
+  },
+  {
+   "id": 6,
+   "name": "floor"
+  }
+ ],
+ "parts": [
+  {
+   "id": "mirr_013_mitered",
+   "no": 1,
+   "name": "mirr.013",
+   "object": "mirr.013_mitered",
+   "thickness": 5.0,
+   "group": 1,
+   "tagged": true,
+   "w": 2000.0,
+   "h": 859.1,
+   "miters": 4,
+   "bevels": [
+    45.0
+   ],
+   "shortened": 0,
+   "holes": 0,
+   "pieces": 1,
+   "sheets": [
+    1
+   ],
+   "sheet": 1
+  },
+  {
+   "id": "mirr_012_mitered",
+   "no": 2,
+   "name": "mirr.012",
+   "object": "mirr.012_mitered",
+   "thickness": 5.0,
+   "group": 1,
+   "tagged": true,
+   "w": 2000.0,
+   "h": 259.9,
+   "miters": 4,
+   "bevels": [
+    45.0
+   ],
+   "shortened": 0,
+   "holes": 0,
+   "pieces": 1,
+   "sheets": [
+    1
+   ],
+   "sheet": 1
+  },
+  {
+   "id": "mirr_011_mitered",
+   "no": 3,
+   "name": "mirr.011",
+   "object": "mirr.011_mitered",
+   "thickness": 5.0,
+   "group": 1,
+   "tagged": true,
+   "w": 2000.0,
+   "h": 859.1,
+   "miters": 4,
+   "bevels": [
+    45.0
+   ],
+   "shortened": 0,
+   "holes": 0,
+   "pieces": 1,
+   "sheets": [
+    2
+   ],
+   "sheet": 2
+  },
+  {
+   "id": "mirr_010_mitered",
+   "no": 4,
+   "name": "mirr.010",
+   "object": "mirr.010_mitered",
+   "thickness": 5.0,
+   "group": 1,
+   "tagged": true,
+   "w": 2000.0,
+   "h": 259.9,
+   "miters": 4,
+   "bevels": [
+    45.0
+   ],
+   "shortened": 0,
+   "holes": 0,
+   "pieces": 1,
+   "sheets": [
+    2
+   ],
+   "sheet": 2
+  },
+  {
+   "id": "mirr_009_mitered",
+   "no": 5,
+   "name": "mirr.009",
+   "object": "mirr.009_mitered",
+   "thickness": 5.0,
+   "group": 1,
+   "tagged": true,
+   "w": 859.1,
+   "h": 259.9,
+   "miters": 4,
+   "bevels": [
+    45.0
+   ],
+   "shortened": 0,
+   "holes": 0,
+   "pieces": 1,
+   "sheets": [
+    3
+   ],
+   "sheet": 3
+  },
+  {
+   "id": "mirr_008_mitered",
+   "no": 6,
+   "name": "mirr.008",
+   "object": "mirr.008_mitered",
+   "thickness": 5.0,
+   "group": 2,
+   "tagged": true,
+   "w": 2000.0,
+   "h": 259.9,
+   "miters": 3,
+   "bevels": [
+    45.0
+   ],
+   "shortened": 0,
+   "holes": 0,
+   "pieces": 1,
+   "sheets": [
+    4
+   ],
+   "sheet": 4
+  },
+  {
+   "id": "mirr_007_mitered",
+   "no": 7,
+   "name": "mirr.007",
+   "object": "mirr.007_mitered",
+   "thickness": 5.0,
+   "group": 2,
+   "tagged": true,
+   "w": 859.1,
+   "h": 259.9,
+   "miters": 3,
+   "bevels": [
+    45.0
+   ],
+   "shortened": 0,
+   "holes": 0,
+   "pieces": 1,
+   "sheets": [
+    3
+   ],
+   "sheet": 3
+  },
+  {
+   "id": "mirr_006_mitered",
+   "no": 8,
+   "name": "mirr.006",
+   "object": "mirr.006_mitered",
+   "thickness": 5.0,
+   "group": 2,
+   "tagged": true,
+   "w": 2000.0,
+   "h": 259.9,
+   "miters": 3,
+   "bevels": [
+    45.0
+   ],
+   "shortened": 0,
+   "holes": 0,
+   "pieces": 1,
+   "sheets": [
+    4
+   ],
+   "sheet": 4
+  },
+  {
+   "id": "mirr_005_mitered",
+   "no": 9,
+   "name": "mirr.005",
+   "object": "mirr.005_mitered",
+   "thickness": 5.0,
+   "group": 2,
+   "tagged": true,
+   "w": 859.1,
+   "h": 259.9,
+   "miters": 3,
+   "bevels": [
+    45.0
+   ],
+   "shortened": 0,
+   "holes": 0,
+   "pieces": 1,
+   "sheets": [
+    3
+   ],
+   "sheet": 3
+  },
+  {
+   "id": "mirr_004_mitered",
+   "no": 10,
+   "name": "mirr.004",
+   "object": "mirr.004_mitered",
+   "thickness": 5.0,
+   "group": 2,
+   "tagged": true,
+   "w": 2000.0,
+   "h": 859.1,
+   "miters": 4,
+   "bevels": [
+    45.0
+   ],
+   "shortened": 0,
+   "holes": 0,
+   "pieces": 1,
+   "sheets": [
+    5
+   ],
+   "sheet": 5
+  },
+  {
+   "id": "003_mitered",
+   "no": 11,
+   "name": "003",
+   "object": "003_mitered",
+   "thickness": 5.0,
+   "group": 1,
+   "tagged": true,
+   "w": 859.1,
+   "h": 259.9,
+   "miters": 4,
+   "bevels": [
+    45.0
+   ],
+   "shortened": 0,
+   "holes": 0,
+   "pieces": 1,
+   "sheets": [
+    3
+   ],
+   "sheet": 3
+  },
+  {
+   "id": "mirr_002_mitered",
+   "no": 12,
+   "name": "mirr.002",
+   "object": "mirr.002_mitered",
+   "thickness": 5.0,
+   "group": 3,
+   "tagged": true,
+   "w": 3705.8,
+   "h": 859.1,
+   "miters": 0,
+   "bevels": [],
+   "shortened": 0,
+   "holes": 0,
+   "pieces": 2,
+   "sheets": [
+    6,
+    7
+   ],
+   "sheet": 6
+  },
+  {
+   "id": "mirr_001",
+   "no": 13,
+   "name": "mirr.001",
+   "object": "mirr.001",
+   "thickness": 5.0,
+   "group": 2,
+   "tagged": false,
+   "w": 1990.0,
+   "h": 849.1,
+   "miters": 0,
+   "bevels": [],
+   "shortened": 4,
+   "holes": 0,
+   "note": "shortened 5 mm on 4 edge(s) (butt joint)",
+   "pieces": 1,
+   "sheets": [
+    8
+   ],
+   "sheet": 8
+  },
+  {
+   "id": "ceiling",
+   "no": 14,
+   "name": "ceiling",
+   "object": "ceiling",
+   "thickness": 5.0,
+   "group": 4,
+   "tagged": false,
+   "w": 11028.1,
+   "h": 5514.1,
+   "miters": 0,
+   "bevels": [],
+   "shortened": 0,
+   "holes": 0,
+   "pieces": 21,
+   "sheets": [
+    3,
+    4,
+    7,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25
+   ],
+   "sheet": 3
+  },
+  {
+   "id": "mirr",
+   "no": 15,
+   "name": "mirr",
+   "object": "mirr",
+   "thickness": 5.0,
+   "group": 5,
+   "tagged": false,
+   "w": 3705.8,
+   "h": 859.1,
+   "miters": 0,
+   "bevels": [],
+   "shortened": 0,
+   "holes": 0,
+   "pieces": 2,
+   "sheets": [
+    26,
+    27
+   ],
+   "sheet": 26
+  },
+  {
+   "id": "floor",
+   "no": 16,
+   "name": "floor",
+   "object": "floor",
+   "thickness": 5.0,
+   "group": 6,
+   "tagged": false,
+   "w": 4290.4,
+   "h": 2542.5,
+   "miters": 0,
+   "bevels": [],
+   "shortened": 0,
+   "holes": 0,
+   "pieces": 8,
+   "sheets": [
+    18,
+    24,
+    25,
+    28,
+    29,
+    30,
+    31,
+    32
+   ],
+   "sheet": 18
+  }
+ ],
+ "sheets": [
+  {
+   "index": 1,
+   "file": "sheets/sheet-01.svg",
+   "thickness": 5.0,
+   "w": 1220.0,
+   "h": 2440.0,
+   "parts": [
+    "mirr_012_mitered",
+    "mirr_013_mitered"
+   ]
+  },
+  {
+   "index": 2,
+   "file": "sheets/sheet-02.svg",
+   "thickness": 5.0,
+   "w": 1220.0,
+   "h": 2440.0,
+   "parts": [
+    "mirr_010_mitered",
+    "mirr_011_mitered"
+   ]
+  },
+  {
+   "index": 3,
+   "file": "sheets/sheet-03.svg",
+   "thickness": 5.0,
+   "w": 1220.0,
+   "h": 2440.0,
+   "parts": [
+    "003_mitered",
+    "ceiling",
+    "mirr_005_mitered",
+    "mirr_007_mitered",
+    "mirr_009_mitered"
+   ]
+  },
+  {
+   "index": 4,
+   "file": "sheets/sheet-04.svg",
+   "thickness": 5.0,
+   "w": 1220.0,
+   "h": 2440.0,
+   "parts": [
+    "ceiling",
+    "mirr_006_mitered",
+    "mirr_008_mitered"
+   ]
+  },
+  {
+   "index": 5,
+   "file": "sheets/sheet-05.svg",
+   "thickness": 5.0,
+   "w": 1220.0,
+   "h": 2440.0,
+   "parts": [
+    "mirr_004_mitered"
+   ]
+  },
+  {
+   "index": 6,
+   "file": "sheets/sheet-06.svg",
+   "thickness": 5.0,
+   "w": 1220.0,
+   "h": 2440.0,
+   "parts": [
+    "mirr_002_mitered"
+   ]
+  },
+  {
+   "index": 7,
+   "file": "sheets/sheet-07.svg",
+   "thickness": 5.0,
+   "w": 1220.0,
+   "h": 2440.0,
+   "parts": [
+    "ceiling",
+    "mirr_002_mitered"
+   ]
+  },
+  {
+   "index": 8,
+   "file": "sheets/sheet-08.svg",
+   "thickness": 5.0,
+   "w": 1220.0,
+   "h": 2440.0,
+   "parts": [
+    "mirr_001"
+   ]
+  },
+  {
+   "index": 9,
+   "file": "sheets/sheet-09.svg",
+   "thickness": 5.0,
+   "w": 1220.0,
+   "h": 2440.0,
+   "parts": [
+    "ceiling"
+   ]
+  },
+  {
+   "index": 10,
+   "file": "sheets/sheet-10.svg",
+   "thickness": 5.0,
+   "w": 1220.0,
+   "h": 2440.0,
+   "parts": [
+    "ceiling"
+   ]
+  },
+  {
+   "index": 11,
+   "file": "sheets/sheet-11.svg",
+   "thickness": 5.0,
+   "w": 1220.0,
+   "h": 2440.0,
+   "parts": [
+    "ceiling"
+   ]
+  },
+  {
+   "index": 12,
+   "file": "sheets/sheet-12.svg",
+   "thickness": 5.0,
+   "w": 1220.0,
+   "h": 2440.0,
+   "parts": [
+    "ceiling"
+   ]
+  },
+  {
+   "index": 13,
+   "file": "sheets/sheet-13.svg",
+   "thickness": 5.0,
+   "w": 1220.0,
+   "h": 2440.0,
+   "parts": [
+    "ceiling"
+   ]
+  },
+  {
+   "index": 14,
+   "file": "sheets/sheet-14.svg",
+   "thickness": 5.0,
+   "w": 1220.0,
+   "h": 2440.0,
+   "parts": [
+    "ceiling"
+   ]
+  },
+  {
+   "index": 15,
+   "file": "sheets/sheet-15.svg",
+   "thickness": 5.0,
+   "w": 1220.0,
+   "h": 2440.0,
+   "parts": [
+    "ceiling"
+   ]
+  },
+  {
+   "index": 16,
+   "file": "sheets/sheet-16.svg",
+   "thickness": 5.0,
+   "w": 1220.0,
+   "h": 2440.0,
+   "parts": [
+    "ceiling"
+   ]
+  },
+  {
+   "index": 17,
+   "file": "sheets/sheet-17.svg",
+   "thickness": 5.0,
+   "w": 1220.0,
+   "h": 2440.0,
+   "parts": [
+    "ceiling"
+   ]
+  },
+  {
+   "index": 18,
+   "file": "sheets/sheet-18.svg",
+   "thickness": 5.0,
+   "w": 1220.0,
+   "h": 2440.0,
+   "parts": [
+    "ceiling",
+    "floor"
+   ]
+  },
+  {
+   "index": 19,
+   "file": "sheets/sheet-19.svg",
+   "thickness": 5.0,
+   "w": 1220.0,
+   "h": 2440.0,
+   "parts": [
+    "ceiling"
+   ]
+  },
+  {
+   "index": 20,
+   "file": "sheets/sheet-20.svg",
+   "thickness": 5.0,
+   "w": 1220.0,
+   "h": 2440.0,
+   "parts": [
+    "ceiling"
+   ]
+  },
+  {
+   "index": 21,
+   "file": "sheets/sheet-21.svg",
+   "thickness": 5.0,
+   "w": 1220.0,
+   "h": 2440.0,
+   "parts": [
+    "ceiling"
+   ]
+  },
+  {
+   "index": 22,
+   "file": "sheets/sheet-22.svg",
+   "thickness": 5.0,
+   "w": 1220.0,
+   "h": 2440.0,
+   "parts": [
+    "ceiling"
+   ]
+  },
+  {
+   "index": 23,
+   "file": "sheets/sheet-23.svg",
+   "thickness": 5.0,
+   "w": 1220.0,
+   "h": 2440.0,
+   "parts": [
+    "ceiling"
+   ]
+  },
+  {
+   "index": 24,
+   "file": "sheets/sheet-24.svg",
+   "thickness": 5.0,
+   "w": 1220.0,
+   "h": 2440.0,
+   "parts": [
+    "ceiling",
+    "floor"
+   ]
+  },
+  {
+   "index": 25,
+   "file": "sheets/sheet-25.svg",
+   "thickness": 5.0,
+   "w": 1220.0,
+   "h": 2440.0,
+   "parts": [
+    "ceiling",
+    "floor"
+   ]
+  },
+  {
+   "index": 26,
+   "file": "sheets/sheet-26.svg",
+   "thickness": 5.0,
+   "w": 1220.0,
+   "h": 2440.0,
+   "parts": [
+    "mirr"
+   ]
+  },
+  {
+   "index": 27,
+   "file": "sheets/sheet-27.svg",
+   "thickness": 5.0,
+   "w": 1220.0,
+   "h": 2440.0,
+   "parts": [
+    "mirr"
+   ]
+  },
+  {
+   "index": 28,
+   "file": "sheets/sheet-28.svg",
+   "thickness": 5.0,
+   "w": 1220.0,
+   "h": 2440.0,
+   "parts": [
+    "floor"
+   ]
+  },
+  {
+   "index": 29,
+   "file": "sheets/sheet-29.svg",
+   "thickness": 5.0,
+   "w": 1220.0,
+   "h": 2440.0,
+   "parts": [
+    "floor"
+   ]
+  },
+  {
+   "index": 30,
+   "file": "sheets/sheet-30.svg",
+   "thickness": 5.0,
+   "w": 1220.0,
+   "h": 2440.0,
+   "parts": [
+    "floor"
+   ]
+  },
+  {
+   "index": 31,
+   "file": "sheets/sheet-31.svg",
+   "thickness": 5.0,
+   "w": 1220.0,
+   "h": 2440.0,
+   "parts": [
+    "floor"
+   ]
+  },
+  {
+   "index": 32,
+   "file": "sheets/sheet-32.svg",
+   "thickness": 5.0,
+   "w": 1220.0,
+   "h": 2440.0,
+   "parts": [
+    "floor"
+   ]
+  }
+ ],
+ "scene": [],
+ "figures": [
+  {
+   "id": "figure__GEO-body_male_realistic",
+   "name": "GEO-body_male_realistic",
+   "height": 169.0
+  }
+ ],
+ "warnings": [
+  "6 plate(s) in a group of 6 had normals pointing inward, flipped outward",
+  "6 plate(s) in a group of 6 had normals pointing inward, flipped outward",
+  "mirr.002 (3706 x 859 mm) is bigger than a sheet: split into 2 panels",
+  "ceiling (11028 x 5514 mm) is bigger than a sheet: split into 21 panels",
+  "mirr (3706 x 859 mm) is bigger than a sheet: split into 2 panels",
+  "floor (4290 x 2542 mm) is bigger than a sheet: split into 8 panels"
+ ]
+}
