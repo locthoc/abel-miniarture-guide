@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Foamex Miniature Viewer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Barlow+Condensed:wght@500;600;700&display=swap">
+<link rel="stylesheet" href="style.css">
+<style id="page-size"></style>
+<script type="importmap">
+{ "imports": {
+  "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js",
+  "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/"
+} }
+</script>
+</head>
+<body>
+<header class="bar">
+  <div class="brand">
+    <a class="btn back" id="back" href="./" hidden>← All models</a>
+    <span class="mark"></span>
+    <div>
+      <h1 id="project">ABEL Miniature Guide</h1>
+      <p class="sub">Foamex cut &amp; assembly viewer <span class="ver">v0.6.3 beta</span></p>
+    </div>
+  </div>
+  <div class="controls" id="viewer-controls" hidden>
+    <div class="chips" id="filter-chips" role="group" aria-label="Filter"></div>
+    <button id="replay-tutorial" class="btn accent" hidden>▶ Replay tutorial</button>
+  </div>
+</header>
+
+<main class="browser" id="browser" hidden>
+  <div class="browser-head">
+    <h2>Models</h2>
+    <input type="search" id="model-search" placeholder="Search models" aria-label="Search models">
+  </div>
+  <div class="model-grid" id="model-grid"></div>
+</main>
+
+<main class="layout" id="viewer" hidden>
+  <div class="split-banner" id="split-banner" role="alert" hidden></div>
+  <section class="pane pane-3d">
+    <div class="pane-head"><span class="tag">3D</span>
+      <button class="btn small" id="measure-btn" aria-pressed="false">Measurements</button>
+      <label class="mini-slider" id="mfont-wrap" hidden title="Measurement text size">Text
+        <input type="range" id="mfont" min="0.5" max="2.5" step="0.05" value="1" aria-label="Measurement text size">
+        <span id="mfont-val">100%</span></label>
+      <label class="mini-slider" id="density-wrap" hidden title="How much of a measurement may be hidden behind plates before it fades away. Low = fewer, cleaner labels; high = more labels.">Label density
+        <input type="range" id="density" min="1" max="50" step="1" value="50" aria-label="Label density">
+        <span id="density-val">50%</span></label>
+      <div class="cam-buttons" id="cam-buttons"></div>
+      <button class="btn small full-btn" aria-pressed="false" title="Fullscreen" aria-label="Fullscreen">⛶</button></div>
+    <div id="viewport">
+      <div class="explode" title="Explode the model">
+        <span class="explode-lbl">Explode</span>
+        <input type="range" id="explode" min="0" max="1" step="0.01" value="0" aria-label="Explode">
+      </div>
+      <ul class="nav-guide" aria-label="3D navigation">
+        <li><span class="key">Left-drag</span> Rotate</li>
+        <li><span class="key">Right-drag</span> Pan (shift camera)</li>
+        <li><span class="key">Scroll</span> Zoom</li>
+        <li><span class="key">Click</span> Select part</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="pane pane-2d">
+    <div class="pane-head">
+      <span class="tag">Blueprint</span>
+      <div class="sheet-nav">
+        <button class="btn icon" id="sheet-prev" aria-label="Previous sheet">◀</button>
+        <select id="sheet-select" aria-label="Sheet"></select>
+        <button class="btn icon" id="sheet-next" aria-label="Next sheet">▶</button>
+      </div>
+      <span class="bp-hint">Scroll to zoom · drag to move · double-click to fit</span>
+      <div class="actions">
+        <div class="zoom" role="group" aria-label="Blueprint zoom">
+          <button class="btn icon" id="zoom-out" aria-label="Zoom out">−</button>
+          <button class="btn icon" id="zoom-in" aria-label="Zoom in">+</button>
+          <button class="btn" id="zoom-fit">Fit</button>
+        </div>
+        <button class="btn full-btn" aria-pressed="false" title="Fullscreen" aria-label="Fullscreen">⛶</button>
+      </div>
+    </div>
+    <div id="sheet" class="sheet-wrap" title="Scroll to zoom · drag to move · double-click to fit"></div>
+    <div class="parts">
+      <table>
+        <thead><tr><th>#</th><th>Part</th><th>Group</th><th>Size (mm)</th><th>Miters</th><th>Sheet</th></tr></thead>
+        <tbody id="parts-body"></tbody>
+      </table>
+    </div>
+    <details class="hardware" id="hardware" open hidden>
+      <summary>Hardware · pin joints</summary>
+      <table><thead><tr><th>Name</th><th>Size (mm)</th><th>Count</th></tr></thead><tbody id="hw-body"></tbody></table>
+    </details>
+    <details class="warnings" id="warnings" hidden></details>
+  </section>
+</main>
+
+<footer class="info" id="info" hidden>Select a part in either view.</footer>
+<div id="print-area"></div>
+<div class="tour" id="tour" hidden>
+  <div class="tour-ring" id="tour-ring"></div>
+  <div class="tour-pop" id="tour-pop" role="dialog" aria-live="polite" aria-label="Guided tour"></div>
+</div>
+
+<script type="module" src="app.js"></script>
+</body>
+</html>
