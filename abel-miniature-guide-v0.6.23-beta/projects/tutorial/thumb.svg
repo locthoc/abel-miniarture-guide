@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+<defs><pattern id="g" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity=".07" stroke-width="2"/></pattern>
+<pattern id="h" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="12" stroke="#c23a5c" stroke-width="4"/></pattern></defs>
+<rect width="800" height="600" fill="#123a5c"/><rect width="800" height="600" fill="url(#g)"/>
+<g transform="translate(470 150)" fill="none" stroke="#d8e6f2" stroke-width="5" stroke-linejoin="round">
+ <path d="M0 140 L130 30 L260 140 L260 330 L0 330 Z" fill="#ffffff" fill-opacity=".06"/>
+ <path d="M0 330 L0 140 L18 140 L18 330 Z" fill="url(#h)" stroke="none"/>
+ <path d="M242 330 L242 140 L260 140 L260 330 Z" fill="url(#h)" stroke="none"/>
+ <rect x="104" y="220" width="52" height="110"/><rect x="34" y="190" width="44" height="40"/><rect x="182" y="190" width="44" height="40"/>
+</g>
+<text x="60" y="250" font-family="Helvetica, Arial, sans-serif" font-size="84" font-weight="700" fill="#ffffff" letter-spacing="2">Tutorial</text>
+<text x="62" y="310" font-family="Helvetica, Arial, sans-serif" font-size="34" fill="#d8e6f2">Start here</text>
+<text x="62" y="356" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#f0b3c2">1-minute tour of the viewer</text>
+</svg>

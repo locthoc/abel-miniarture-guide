@@ -1,0 +1,619 @@
+{
+ "version": "0.4",
+ "id": "tutorial",
+ "project": "Tutorial House",
+ "units": "mm",
+ "model": "models/tutorial.glb",
+ "thickness": 5.0,
+ "scale": 1.0,
+ "source": "tutorial-house.glb",
+ "converted": "2026-11-27",
+ "sheet_size": [
+  400.0,
+  600.0
+ ],
+ "groups": [
+  {
+   "id": 1,
+   "name": "Group 1"
+  }
+ ],
+ "parts": [
+  {
+   "id": "base",
+   "no": 1,
+   "name": "base",
+   "object": "base",
+   "thickness": 5.0,
+   "group": 1,
+   "tagged": false,
+   "w": 140,
+   "h": 88,
+   "miters": 0,
+   "bevels": [],
+   "shortened": 4,
+   "holes": 0,
+   "note": "shortened 5 mm on 4 edge(s) (butt joint)",
+   "edges": [
+    {
+     "a": [
+      0.07,
+      0.0,
+      0.044
+     ],
+     "b": [
+      -0.07,
+      0.0,
+      0.044
+     ],
+     "len": 140,
+     "out": [
+      -0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "a": [
+      -0.07,
+      0.0,
+      0.044
+     ],
+     "b": [
+      -0.07,
+      0.0,
+      -0.044
+     ],
+     "len": 88,
+     "out": [
+      -1.0,
+      0.0,
+      -0.0
+     ]
+    }
+   ],
+   "normal": [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   "pieces": 1,
+   "sheets": [
+    1
+   ],
+   "sheet": 1
+  },
+  {
+   "id": "roof_back",
+   "no": 2,
+   "name": "roof_back",
+   "object": "roof_back",
+   "thickness": 5.0,
+   "group": 1,
+   "tagged": false,
+   "w": 140,
+   "h": 62,
+   "miters": 0,
+   "bevels": [],
+   "shortened": 3,
+   "holes": 0,
+   "note": "shortened 5 mm on 3 edge(s) (butt joint)",
+   "edges": [
+    {
+     "a": [
+      0.07,
+      0.081657,
+      -0.044343
+     ],
+     "b": [
+      -0.07,
+      0.081657,
+      -0.044343
+     ],
+     "len": 140,
+     "out": [
+      -0.0,
+      -0.70711,
+      -0.70711
+     ]
+    },
+    {
+     "a": [
+      -0.07,
+      0.081657,
+      -0.044343
+     ],
+     "b": [
+      -0.07,
+      0.125497,
+      -0.000503
+     ],
+     "len": 62,
+     "out": [
+      -1.0,
+      0.0,
+      0.0
+     ]
+    }
+   ],
+   "normal": [
+    0.0,
+    0.70711,
+    -0.70711
+   ],
+   "pieces": 1,
+   "sheets": [
+    1
+   ],
+   "sheet": 1
+  },
+  {
+   "id": "roof_front",
+   "no": 3,
+   "name": "roof_front",
+   "object": "roof_front",
+   "thickness": 5.0,
+   "group": 1,
+   "tagged": false,
+   "w": 140,
+   "h": 56,
+   "miters": 0,
+   "bevels": [],
+   "shortened": 4,
+   "holes": 0,
+   "note": "shortened 5 mm on 4 edge(s) (butt joint)",
+   "edges": [
+    {
+     "a": [
+      -0.07,
+      0.081657,
+      0.044343
+     ],
+     "b": [
+      0.07,
+      0.081657,
+      0.044343
+     ],
+     "len": 140,
+     "out": [
+      0.0,
+      -0.70711,
+      0.70711
+     ]
+    },
+    {
+     "a": [
+      0.07,
+      0.081657,
+      0.044343
+     ],
+     "b": [
+      0.07,
+      0.121255,
+      0.004745
+     ],
+     "len": 56,
+     "out": [
+      1.0,
+      -0.0,
+      0.0
+     ]
+    }
+   ],
+   "normal": [
+    0.0,
+    0.70711,
+    0.70711
+   ],
+   "pieces": 1,
+   "sheets": [
+    1
+   ],
+   "sheet": 1
+  },
+  {
+   "id": "gable_left_mitered",
+   "no": 4,
+   "name": "gable_left",
+   "object": "gable_left_mitered",
+   "thickness": 5.0,
+   "group": 1,
+   "tagged": true,
+   "w": 100,
+   "h": 126,
+   "miters": 2,
+   "bevels": [
+    45.0
+   ],
+   "shortened": 0,
+   "holes": 1,
+   "edges": [
+    {
+     "a": [
+      -0.076,
+      0.076,
+      -0.05
+     ],
+     "b": [
+      -0.076,
+      0.0,
+      -0.05
+     ],
+     "len": 76,
+     "out": [
+      -0.0,
+      -0.0,
+      -1.0
+     ]
+    },
+    {
+     "a": [
+      -0.076,
+      0.0,
+      -0.05
+     ],
+     "b": [
+      -0.076,
+      0.0,
+      0.05
+     ],
+     "len": 100,
+     "out": [
+      0.0,
+      -1.0,
+      0.0
+     ]
+    },
+    {
+     "a": [
+      -0.076,
+      0.076,
+      0.05
+     ],
+     "b": [
+      -0.076,
+      0.126,
+      0.0
+     ],
+     "len": 70,
+     "out": [
+      0.0,
+      0.70711,
+      0.70711
+     ]
+    },
+    {
+     "a": [
+      -0.076,
+      0.126,
+      0.0
+     ],
+     "b": [
+      -0.076,
+      0.076,
+      -0.05
+     ],
+     "len": 70,
+     "out": [
+      0.0,
+      0.70711,
+      -0.70711
+     ]
+    }
+   ],
+   "normal": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "pieces": 1,
+   "sheets": [
+    1
+   ],
+   "sheet": 1
+  },
+  {
+   "id": "gable_right_mitered",
+   "no": 5,
+   "name": "gable_right",
+   "object": "gable_right_mitered",
+   "thickness": 5.0,
+   "group": 1,
+   "tagged": true,
+   "w": 100,
+   "h": 126,
+   "miters": 2,
+   "bevels": [
+    45.0
+   ],
+   "shortened": 0,
+   "holes": 1,
+   "edges": [
+    {
+     "a": [
+      0.076,
+      0.076,
+      0.05
+     ],
+     "b": [
+      0.076,
+      0.0,
+      0.05
+     ],
+     "len": 76,
+     "out": [
+      -0.0,
+      -0.0,
+      1.0
+     ]
+    },
+    {
+     "a": [
+      0.076,
+      0.0,
+      0.05
+     ],
+     "b": [
+      0.076,
+      0.0,
+      -0.05
+     ],
+     "len": 100,
+     "out": [
+      0.0,
+      -1.0,
+      -0.0
+     ]
+    },
+    {
+     "a": [
+      0.076,
+      0.076,
+      -0.05
+     ],
+     "b": [
+      0.076,
+      0.126,
+      0.0
+     ],
+     "len": 70,
+     "out": [
+      0.0,
+      0.70711,
+      -0.70711
+     ]
+    },
+    {
+     "a": [
+      0.076,
+      0.126,
+      0.0
+     ],
+     "b": [
+      0.076,
+      0.076,
+      0.05
+     ],
+     "len": 70,
+     "out": [
+      0.0,
+      0.70711,
+      0.70711
+     ]
+    }
+   ],
+   "normal": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "pieces": 1,
+   "sheets": [
+    1
+   ],
+   "sheet": 1
+  },
+  {
+   "id": "wall_back_mitered",
+   "no": 6,
+   "name": "wall_back",
+   "object": "wall_back_mitered",
+   "thickness": 5.0,
+   "group": 1,
+   "tagged": true,
+   "w": 152,
+   "h": 76,
+   "miters": 2,
+   "bevels": [
+    45.0
+   ],
+   "shortened": 0,
+   "holes": 1,
+   "edges": [
+    {
+     "a": [
+      0.076,
+      0.076,
+      -0.05
+     ],
+     "b": [
+      0.076,
+      0.0,
+      -0.05
+     ],
+     "len": 76,
+     "out": [
+      1.0,
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "a": [
+      0.076,
+      0.0,
+      -0.05
+     ],
+     "b": [
+      -0.076,
+      0.0,
+      -0.05
+     ],
+     "len": 152,
+     "out": [
+      -0.0,
+      -1.0,
+      0.0
+     ]
+    }
+   ],
+   "normal": [
+    0.0,
+    0.0,
+    -1.0
+   ],
+   "pieces": 1,
+   "sheets": [
+    1
+   ],
+   "sheet": 1
+  },
+  {
+   "id": "wall_front_mitered",
+   "no": 7,
+   "name": "wall_front",
+   "object": "wall_front_mitered",
+   "thickness": 5.0,
+   "group": 1,
+   "tagged": true,
+   "w": 152,
+   "h": 76,
+   "miters": 2,
+   "bevels": [
+    45.0
+   ],
+   "shortened": 0,
+   "holes": 3,
+   "edges": [
+    {
+     "a": [
+      -0.076,
+      0.0,
+      0.05
+     ],
+     "b": [
+      0.076,
+      0.0,
+      0.05
+     ],
+     "len": 152,
+     "out": [
+      0.0,
+      -1.0,
+      0.0
+     ]
+    },
+    {
+     "a": [
+      0.076,
+      0.0,
+      0.05
+     ],
+     "b": [
+      0.076,
+      0.076,
+      0.05
+     ],
+     "len": 76,
+     "out": [
+      1.0,
+      0.0,
+      0.0
+     ]
+    }
+   ],
+   "normal": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "pieces": 1,
+   "sheets": [
+    1
+   ],
+   "sheet": 1
+  }
+ ],
+ "sheets": [
+  {
+   "index": 1,
+   "file": "sheets/sheet-01.svg",
+   "thickness": 5.0,
+   "w": 400.0,
+   "h": 600.0,
+   "parts": [
+    "base",
+    "gable_left_mitered",
+    "gable_right_mitered",
+    "roof_back",
+    "roof_front",
+    "wall_back_mitered",
+    "wall_front_mitered"
+   ]
+  }
+ ],
+ "scene": [],
+ "figures": [
+  {
+   "id": "figure__human_figure",
+   "name": "human figure",
+   "height": 72
+  }
+ ],
+ "hardware": [
+  {
+   "id": "hw__pin_joint_001",
+   "name": "pin joint.001",
+   "type": "pin joint",
+   "size": [
+    2,
+    14,
+    4
+   ]
+  },
+  {
+   "id": "hw__pin_joint",
+   "name": "pin joint",
+   "type": "pin joint",
+   "size": [
+    2,
+    14,
+    4
+   ]
+  }
+ ],
+ "cameras": [
+  {
+   "name": "Camera",
+   "position": [
+    0.23,
+    0.125,
+    0.26
+   ],
+   "forward": [
+    -0.6495,
+    -0.19767,
+    -0.73422
+   ],
+   "up": [
+    -0.13097,
+    0.98027,
+    -0.14806
+   ],
+   "fov": 35.52
+  }
+ ],
+ "warnings": [
+  "Skipped 1 Blender-only frame(s): 40x60"
+ ]
+}

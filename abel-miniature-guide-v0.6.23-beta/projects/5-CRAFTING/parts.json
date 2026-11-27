@@ -1,0 +1,1266 @@
+{
+ "version": "0.4",
+ "id": "5-CRAFTING",
+ "project": "5-CRAFTING",
+ "units": "mm",
+ "model": "models/5-CRAFTING.glb",
+ "thickness": 5.0,
+ "scale": 1.0,
+ "source": "5-c-final2.glb",
+ "converted": "2026-11-27",
+ "sheet_size": [
+  400.0,
+  600.0
+ ],
+ "groups": [
+  {
+   "id": 1,
+   "name": "Group 1"
+  },
+  {
+   "id": 2,
+   "name": "Group 2"
+  },
+  {
+   "id": 3,
+   "name": "left back wall"
+  },
+  {
+   "id": 4,
+   "name": "ceiling"
+  },
+  {
+   "id": 5,
+   "name": "right back wall"
+  },
+  {
+   "id": 6,
+   "name": "floor"
+  }
+ ],
+ "parts": [
+  {
+   "id": "THICK-LEFT_2_mitered",
+   "no": 1,
+   "name": "THICK-LEFT.2",
+   "object": "THICK-LEFT.2_mitered",
+   "thickness": 5.0,
+   "group": 1,
+   "tagged": true,
+   "w": 80,
+   "h": 40,
+   "miters": 4,
+   "bevels": [
+    45.0
+   ],
+   "shortened": 0,
+   "holes": 0,
+   "edges": [
+    {
+     "a": [
+      -1.184,
+      0.828,
+      0.032
+     ],
+     "b": [
+      -1.184,
+      0.788,
+      0.032
+     ],
+     "len": 40,
+     "out": [
+      -0.0,
+      -0.0,
+      1.0
+     ]
+    },
+    {
+     "a": [
+      -1.184,
+      0.788,
+      0.032
+     ],
+     "b": [
+      -1.184,
+      0.788,
+      -0.048
+     ],
+     "len": 80,
+     "out": [
+      0.0,
+      -1.0,
+      -0.0
+     ]
+    }
+   ],
+   "normal": [
+    1.0,
+    -0.0,
+    -0.0
+   ],
+   "pieces": 1,
+   "sheets": [
+    1
+   ],
+   "sheet": 1
+  },
+  {
+   "id": "THICK-LEFT_3_mitered",
+   "no": 2,
+   "name": "THICK-LEFT.3",
+   "object": "THICK-LEFT.3_mitered",
+   "thickness": 5.0,
+   "group": 1,
+   "tagged": true,
+   "w": 80,
+   "h": 18,
+   "miters": 4,
+   "bevels": [
+    45.0
+   ],
+   "shortened": 0,
+   "holes": 0,
+   "edges": [
+    {
+     "a": [
+      -1.184,
+      0.788,
+      0.032
+     ],
+     "b": [
+      -1.202,
+      0.788,
+      0.032
+     ],
+     "len": 18,
+     "out": [
+      0.0,
+      -0.0,
+      1.0
+     ]
+    },
+    {
+     "a": [
+      -1.202,
+      0.788,
+      0.032
+     ],
+     "b": [
+      -1.202,
+      0.788,
+      -0.048
+     ],
+     "len": 80,
+     "out": [
+      -1.0,
+      0.0,
+      0.0
+     ]
+    }
+   ],
+   "normal": [
+    -0.0,
+    -1.0,
+    -0.0
+   ],
+   "pieces": 1,
+   "sheets": [
+    1
+   ],
+   "sheet": 1
+  },
+  {
+   "id": "THICK-LEFT_6_mitered",
+   "no": 3,
+   "name": "THICK-LEFT.6",
+   "object": "THICK-LEFT.6_mitered",
+   "thickness": 5.0,
+   "group": 1,
+   "tagged": true,
+   "w": 80,
+   "h": 40,
+   "miters": 4,
+   "bevels": [
+    45.0
+   ],
+   "shortened": 0,
+   "holes": 0,
+   "edges": [
+    {
+     "a": [
+      -1.202,
+      0.828,
+      -0.048
+     ],
+     "b": [
+      -1.202,
+      0.788,
+      -0.048
+     ],
+     "len": 40,
+     "out": [
+      -0.0,
+      -0.0,
+      -1.0
+     ]
+    },
+    {
+     "a": [
+      -1.202,
+      0.788,
+      -0.048
+     ],
+     "b": [
+      -1.202,
+      0.788,
+      0.032
+     ],
+     "len": 80,
+     "out": [
+      0.0,
+      -1.0,
+      0.0
+     ]
+    }
+   ],
+   "normal": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "pieces": 1,
+   "sheets": [
+    1
+   ],
+   "sheet": 1
+  },
+  {
+   "id": "THICK-LEFT_5_mitered",
+   "no": 4,
+   "name": "THICK-LEFT.5",
+   "object": "THICK-LEFT.5_mitered",
+   "thickness": 5.0,
+   "group": 1,
+   "tagged": true,
+   "w": 80,
+   "h": 18,
+   "miters": 4,
+   "bevels": [
+    45.0
+   ],
+   "shortened": 0,
+   "holes": 0,
+   "edges": [
+    {
+     "a": [
+      -1.184,
+      0.828,
+      -0.048
+     ],
+     "b": [
+      -1.202,
+      0.828,
+      -0.048
+     ],
+     "len": 18,
+     "out": [
+      0.0,
+      -0.0,
+      -1.0
+     ]
+    },
+    {
+     "a": [
+      -1.202,
+      0.828,
+      -0.048
+     ],
+     "b": [
+      -1.202,
+      0.828,
+      0.032
+     ],
+     "len": 80,
+     "out": [
+      -1.0,
+      0.0,
+      -0.0
+     ]
+    }
+   ],
+   "normal": [
+    -0.0,
+    1.0,
+    -0.0
+   ],
+   "pieces": 1,
+   "sheets": [
+    1
+   ],
+   "sheet": 1
+  },
+  {
+   "id": "THICK-LEFT_4_mitered",
+   "no": 5,
+   "name": "THICK-LEFT.4",
+   "object": "THICK-LEFT.4_mitered",
+   "thickness": 5.0,
+   "group": 1,
+   "tagged": true,
+   "w": 18,
+   "h": 40,
+   "miters": 4,
+   "bevels": [
+    45.0
+   ],
+   "shortened": 0,
+   "holes": 0,
+   "edges": [
+    {
+     "a": [
+      -1.202,
+      0.828,
+      0.032
+     ],
+     "b": [
+      -1.202,
+      0.788,
+      0.032
+     ],
+     "len": 40,
+     "out": [
+      -1.0,
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "a": [
+      -1.202,
+      0.788,
+      0.032
+     ],
+     "b": [
+      -1.184,
+      0.788,
+      0.032
+     ],
+     "len": 18,
+     "out": [
+      0.0,
+      -1.0,
+      0.0
+     ]
+    }
+   ],
+   "normal": [
+    -0.0,
+    -0.0,
+    1.0
+   ],
+   "pieces": 1,
+   "sheets": [
+    1
+   ],
+   "sheet": 1
+  },
+  {
+   "id": "THICK_RIGHT5_mitered",
+   "no": 6,
+   "name": "THICK.RIGHT5",
+   "object": "THICK.RIGHT5_mitered",
+   "thickness": 5.0,
+   "group": 2,
+   "tagged": true,
+   "w": 80,
+   "h": 18,
+   "miters": 4,
+   "bevels": [
+    45.0
+   ],
+   "shortened": 0,
+   "holes": 0,
+   "edges": [
+    {
+     "a": [
+      -1.202,
+      0.828,
+      -0.14
+     ],
+     "b": [
+      -1.202,
+      0.828,
+      -0.06
+     ],
+     "len": 80,
+     "out": [
+      -1.0,
+      0.0,
+      -0.0
+     ]
+    },
+    {
+     "a": [
+      -1.202,
+      0.828,
+      -0.06
+     ],
+     "b": [
+      -1.184,
+      0.828,
+      -0.06
+     ],
+     "len": 18,
+     "out": [
+      -0.0,
+      0.0,
+      1.0
+     ]
+    }
+   ],
+   "normal": [
+    -0.0,
+    1.0,
+    -0.0
+   ],
+   "pieces": 1,
+   "sheets": [
+    1
+   ],
+   "sheet": 1
+  },
+  {
+   "id": "THICK_RIGHT4_mitered",
+   "no": 7,
+   "name": "THICK.RIGHT4",
+   "object": "THICK.RIGHT4_mitered",
+   "thickness": 5.0,
+   "group": 2,
+   "tagged": true,
+   "w": 18,
+   "h": 40,
+   "miters": 4,
+   "bevels": [
+    45.0
+   ],
+   "shortened": 0,
+   "holes": 0,
+   "edges": [
+    {
+     "a": [
+      -1.184,
+      0.788,
+      -0.14
+     ],
+     "b": [
+      -1.202,
+      0.788,
+      -0.14
+     ],
+     "len": 18,
+     "out": [
+      -0.0,
+      -1.0,
+      0.0
+     ]
+    },
+    {
+     "a": [
+      -1.202,
+      0.788,
+      -0.14
+     ],
+     "b": [
+      -1.202,
+      0.828,
+      -0.14
+     ],
+     "len": 40,
+     "out": [
+      -1.0,
+      -0.0,
+      0.0
+     ]
+    }
+   ],
+   "normal": [
+    -0.0,
+    -0.0,
+    -1.0
+   ],
+   "pieces": 1,
+   "sheets": [
+    1
+   ],
+   "sheet": 1
+  },
+  {
+   "id": "THICK_RIGHT6_mitered",
+   "no": 8,
+   "name": "THICK.RIGHT6",
+   "object": "THICK.RIGHT6_mitered",
+   "thickness": 5.0,
+   "group": 2,
+   "tagged": true,
+   "w": 80,
+   "h": 18,
+   "miters": 4,
+   "bevels": [
+    45.0
+   ],
+   "shortened": 0,
+   "holes": 0,
+   "edges": [
+    {
+     "a": [
+      -1.184,
+      0.788,
+      -0.14
+     ],
+     "b": [
+      -1.184,
+      0.788,
+      -0.06
+     ],
+     "len": 80,
+     "out": [
+      1.0,
+      0.0,
+      -0.0
+     ]
+    },
+    {
+     "a": [
+      -1.184,
+      0.788,
+      -0.06
+     ],
+     "b": [
+      -1.202,
+      0.788,
+      -0.06
+     ],
+     "len": 18,
+     "out": [
+      0.0,
+      0.0,
+      1.0
+     ]
+    }
+   ],
+   "normal": [
+    -0.0,
+    -1.0,
+    -0.0
+   ],
+   "pieces": 1,
+   "sheets": [
+    1
+   ],
+   "sheet": 1
+  },
+  {
+   "id": "THICK_RIGHT2_mitered",
+   "no": 9,
+   "name": "THICK.RIGHT2",
+   "object": "THICK.RIGHT2_mitered",
+   "thickness": 5.0,
+   "group": 2,
+   "tagged": true,
+   "w": 18,
+   "h": 40,
+   "miters": 4,
+   "bevels": [
+    45.0
+   ],
+   "shortened": 0,
+   "holes": 0,
+   "edges": [
+    {
+     "a": [
+      -1.202,
+      0.788,
+      -0.06
+     ],
+     "b": [
+      -1.184,
+      0.788,
+      -0.06
+     ],
+     "len": 18,
+     "out": [
+      0.0,
+      -1.0,
+      0.0
+     ]
+    },
+    {
+     "a": [
+      -1.184,
+      0.788,
+      -0.06
+     ],
+     "b": [
+      -1.184,
+      0.828,
+      -0.06
+     ],
+     "len": 40,
+     "out": [
+      1.0,
+      -0.0,
+      0.0
+     ]
+    }
+   ],
+   "normal": [
+    -0.0,
+    -0.0,
+    1.0
+   ],
+   "pieces": 1,
+   "sheets": [
+    1
+   ],
+   "sheet": 1
+  },
+  {
+   "id": "THICK_RIGHT3_mitered",
+   "no": 10,
+   "name": "THICK.RIGHT3",
+   "object": "THICK.RIGHT3_mitered",
+   "thickness": 5.0,
+   "group": 2,
+   "tagged": true,
+   "w": 80,
+   "h": 40,
+   "miters": 4,
+   "bevels": [
+    45.0
+   ],
+   "shortened": 0,
+   "holes": 0,
+   "edges": [
+    {
+     "a": [
+      -1.202,
+      0.788,
+      -0.14
+     ],
+     "b": [
+      -1.202,
+      0.788,
+      -0.06
+     ],
+     "len": 80,
+     "out": [
+      0.0,
+      -1.0,
+      0.0
+     ]
+    },
+    {
+     "a": [
+      -1.202,
+      0.788,
+      -0.06
+     ],
+     "b": [
+      -1.202,
+      0.828,
+      -0.06
+     ],
+     "len": 40,
+     "out": [
+      0.0,
+      0.0,
+      1.0
+     ]
+    }
+   ],
+   "normal": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "pieces": 1,
+   "sheets": [
+    1
+   ],
+   "sheet": 1
+  },
+  {
+   "id": "THICK-LEFT_1_mitered",
+   "no": 11,
+   "name": "THICK-LEFT.1",
+   "object": "THICK-LEFT.1_mitered",
+   "thickness": 5.0,
+   "group": 1,
+   "tagged": true,
+   "w": 18,
+   "h": 40,
+   "miters": 4,
+   "bevels": [
+    45.0
+   ],
+   "shortened": 0,
+   "holes": 0,
+   "edges": [
+    {
+     "a": [
+      -1.184,
+      0.828,
+      -0.048
+     ],
+     "b": [
+      -1.184,
+      0.788,
+      -0.048
+     ],
+     "len": 40,
+     "out": [
+      1.0,
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "a": [
+      -1.184,
+      0.788,
+      -0.048
+     ],
+     "b": [
+      -1.202,
+      0.788,
+      -0.048
+     ],
+     "len": 18,
+     "out": [
+      -0.0,
+      -1.0,
+      0.0
+     ]
+    }
+   ],
+   "normal": [
+    -0.0,
+    -0.0,
+    -1.0
+   ],
+   "pieces": 1,
+   "sheets": [
+    1
+   ],
+   "sheet": 1
+  },
+  {
+   "id": "left_back_wall",
+   "no": 12,
+   "name": "left back wall",
+   "object": "left back wall",
+   "thickness": 5.0,
+   "group": 3,
+   "tagged": false,
+   "w": 124,
+   "h": 56,
+   "miters": 0,
+   "bevels": [],
+   "shortened": 0,
+   "holes": 0,
+   "edges": [
+    {
+     "a": [
+      -1.484,
+      0.788,
+      -0.046
+     ],
+     "b": [
+      -1.396,
+      0.788,
+      0.042
+     ],
+     "len": 124,
+     "out": [
+      0.0,
+      -1.0,
+      0.0
+     ]
+    },
+    {
+     "a": [
+      -1.396,
+      0.788,
+      0.042
+     ],
+     "b": [
+      -1.396,
+      0.844,
+      0.042
+     ],
+     "len": 56,
+     "out": [
+      0.70711,
+      -0.0,
+      0.70711
+     ]
+    }
+   ],
+   "normal": [
+    -0.70711,
+    0.0,
+    0.70711
+   ],
+   "pieces": 1,
+   "sheets": [
+    1
+   ],
+   "sheet": 1
+  },
+  {
+   "id": "THICK_RIGHT1_mitered",
+   "no": 13,
+   "name": "THICK.RIGHT1",
+   "object": "THICK.RIGHT1_mitered",
+   "thickness": 5.0,
+   "group": 2,
+   "tagged": true,
+   "w": 80,
+   "h": 40,
+   "miters": 4,
+   "bevels": [
+    45.0
+   ],
+   "shortened": 0,
+   "holes": 0,
+   "edges": [
+    {
+     "a": [
+      -1.184,
+      0.788,
+      -0.06
+     ],
+     "b": [
+      -1.184,
+      0.788,
+      -0.14
+     ],
+     "len": 80,
+     "out": [
+      0.0,
+      -1.0,
+      -0.0
+     ]
+    },
+    {
+     "a": [
+      -1.184,
+      0.788,
+      -0.14
+     ],
+     "b": [
+      -1.184,
+      0.828,
+      -0.14
+     ],
+     "len": 40,
+     "out": [
+      0.0,
+      0.0,
+      -1.0
+     ]
+    }
+   ],
+   "normal": [
+    1.0,
+    -0.0,
+    -0.0
+   ],
+   "pieces": 1,
+   "sheets": [
+    1
+   ],
+   "sheet": 1
+  },
+  {
+   "id": "ceiling",
+   "no": 14,
+   "name": "ceiling",
+   "object": "ceiling",
+   "thickness": 5.0,
+   "group": 4,
+   "tagged": false,
+   "w": 372,
+   "h": 172,
+   "miters": 0,
+   "bevels": [],
+   "shortened": 0,
+   "holes": 0,
+   "edges": [
+    {
+     "a": [
+      -1.15,
+      0.85,
+      -0.14
+     ],
+     "b": [
+      -1.15,
+      0.85,
+      0.032
+     ],
+     "len": 172,
+     "out": [
+      1.0,
+      0.0,
+      -0.0
+     ]
+    },
+    {
+     "a": [
+      -1.15,
+      0.85,
+      0.032
+     ],
+     "b": [
+      -1.436,
+      0.85,
+      0.032
+     ],
+     "len": 286,
+     "out": [
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "a": [
+      -1.436,
+      0.85,
+      0.032
+     ],
+     "b": [
+      -1.522,
+      0.85,
+      -0.054
+     ],
+     "len": 122,
+     "out": [
+      -0.70711,
+      0.0,
+      0.70711
+     ]
+    },
+    {
+     "a": [
+      -1.522,
+      0.85,
+      -0.054
+     ],
+     "b": [
+      -1.436,
+      0.85,
+      -0.14
+     ],
+     "len": 122,
+     "out": [
+      -0.70711,
+      0.0,
+      -0.70711
+     ]
+    }
+   ],
+   "normal": [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   "pieces": 1,
+   "sheets": [
+    1
+   ],
+   "sheet": 1
+  },
+  {
+   "id": "right_back_wall",
+   "no": 15,
+   "name": "right back wall",
+   "object": "right back wall",
+   "thickness": 5.0,
+   "group": 5,
+   "tagged": false,
+   "w": 124,
+   "h": 56,
+   "miters": 0,
+   "bevels": [],
+   "shortened": 0,
+   "holes": 0,
+   "edges": [
+    {
+     "a": [
+      -1.396,
+      0.844,
+      -0.15
+     ],
+     "b": [
+      -1.396,
+      0.788,
+      -0.15
+     ],
+     "len": 56,
+     "out": [
+      0.70711,
+      -0.0,
+      -0.70711
+     ]
+    },
+    {
+     "a": [
+      -1.396,
+      0.788,
+      -0.15
+     ],
+     "b": [
+      -1.484,
+      0.788,
+      -0.062
+     ],
+     "len": 124,
+     "out": [
+      -0.0,
+      -1.0,
+      0.0
+     ]
+    }
+   ],
+   "normal": [
+    -0.70711,
+    0.0,
+    -0.70711
+   ],
+   "pieces": 1,
+   "sheets": [
+    1
+   ],
+   "sheet": 1
+  },
+  {
+   "id": "floor",
+   "no": 16,
+   "name": "floor",
+   "object": "floor",
+   "thickness": 5.0,
+   "group": 6,
+   "tagged": false,
+   "w": 288,
+   "h": 172,
+   "miters": 0,
+   "bevels": [],
+   "shortened": 0,
+   "holes": 0,
+   "edges": [
+    {
+     "a": [
+      -1.47,
+      0.788,
+      0.032
+     ],
+     "b": [
+      -1.182,
+      0.788,
+      0.032
+     ],
+     "len": 288,
+     "out": [
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "a": [
+      -1.182,
+      0.788,
+      0.032
+     ],
+     "b": [
+      -1.182,
+      0.788,
+      -0.14
+     ],
+     "len": 172,
+     "out": [
+      1.0,
+      0.0,
+      -0.0
+     ]
+    }
+   ],
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "pieces": 1,
+   "sheets": [
+    1
+   ],
+   "sheet": 1
+  }
+ ],
+ "sheets": [
+  {
+   "index": 1,
+   "file": "sheets/sheet-01.svg",
+   "thickness": 5.0,
+   "w": 400.0,
+   "h": 600.0,
+   "parts": [
+    "THICK-LEFT_1_mitered",
+    "THICK-LEFT_2_mitered",
+    "THICK-LEFT_3_mitered",
+    "THICK-LEFT_4_mitered",
+    "THICK-LEFT_5_mitered",
+    "THICK-LEFT_6_mitered",
+    "THICK_RIGHT1_mitered",
+    "THICK_RIGHT2_mitered",
+    "THICK_RIGHT3_mitered",
+    "THICK_RIGHT4_mitered",
+    "THICK_RIGHT5_mitered",
+    "THICK_RIGHT6_mitered",
+    "ceiling",
+    "floor",
+    "left_back_wall",
+    "right_back_wall"
+   ]
+  }
+ ],
+ "scene": [],
+ "figures": [
+  {
+   "id": "figure__GEO-body_male_realistic",
+   "name": "GEO-body_male_realistic",
+   "height": 12
+  }
+ ],
+ "hardware": [
+  {
+   "id": "hw__pin4",
+   "name": "pin4",
+   "type": "pin4",
+   "size": [
+    2,
+    30,
+    2
+   ],
+   "gap": {
+    "a": [
+     -1.435478,
+     0.850021,
+     -0.108725
+    ],
+    "b": [
+     -1.435478,
+     0.844021,
+     -0.108725
+    ],
+    "len": 6
+   }
+  },
+  {
+   "id": "hw__pin3",
+   "name": "pin3",
+   "type": "pin3",
+   "size": [
+    2,
+    30,
+    2
+   ],
+   "gap": {
+    "a": [
+     -1.436233,
+     0.850021,
+     0.001615
+    ],
+    "b": [
+     -1.436233,
+     0.844021,
+     0.001615
+    ],
+    "len": 6
+   }
+  },
+  {
+   "id": "hw__pin2",
+   "name": "pin2",
+   "type": "pin2",
+   "size": [
+    2,
+    30,
+    2
+   ],
+   "gap": {
+    "a": [
+     -1.192204,
+     0.849986,
+     0.020162
+    ],
+    "b": [
+     -1.192204,
+     0.827986,
+     0.020162
+    ],
+    "len": 22
+   }
+  },
+  {
+   "id": "hw__pin1",
+   "name": "pin1",
+   "type": "pin1",
+   "size": [
+    2,
+    30,
+    2
+   ],
+   "gap": {
+    "a": [
+     -1.192204,
+     0.849986,
+     -0.133747
+    ],
+    "b": [
+     -1.192204,
+     0.827986,
+     -0.133747
+    ],
+    "len": 22
+   }
+  }
+ ],
+ "cameras": [
+  {
+   "name": "Camera",
+   "position": [
+    -1.17064,
+    0.79363,
+    -0.05357
+   ],
+   "forward": [
+    -0.98357,
+    0.18052,
+    0.0
+   ],
+   "up": [
+    0.18052,
+    0.98357,
+    -0.0
+   ],
+   "fov": 71.75
+  }
+ ],
+ "warnings": [
+  "6 plate(s) in a group of 6 had normals pointing inward, flipped outward",
+  "6 plate(s) in a group of 6 had normals pointing inward, flipped outward",
+  "Skipped 1 Blender-only frame(s): 40x60"
+ ]
+}
